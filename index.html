@@ -55,8 +55,16 @@
             <div class="event-details animate-up">
                 <h3 class="event-header">Ceremonia & Recepción</h3>
                 <p class="event-date">30 . Octubre . 2026</p>
-                <p class="event-info">Jardín y terraza Invito<br>17:00 hrs.</p>
+                <p class="event-info">Salón Terraza & Jardín El Eden Invitó<br>18:00 hrs.</p>
                 <a href="https://maps.app.goo.gl/Cb2jnZqSbyZ9MdFQ6" target="_blank" class="location-button">Ver Ubicación</a>
+            </div>
+
+            <div class="dress-code animate-up">
+                <div class="dress-icon-wrapper">
+                    <span class="dress-icon"></span>
+                </div>
+                <h3 class="event-header">Código de Vestimenta</h3>
+                <p class="dress-type">Vestimenta Formal</p>
             </div>
 
             <div class="photo-wrapper animate-up">
@@ -87,7 +95,7 @@
             }, 1000);
         }
 
-        const targetDate = new Date("October 30, 2026 17:00:00").getTime();
+        const targetDate = new Date("October 30, 2026 18:00:00").getTime();
         setInterval(() => {
             const distance = targetDate - new Date().getTime();
             if (distance < 0) {
